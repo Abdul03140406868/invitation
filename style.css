@@ -1,0 +1,37 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffff;
+    background-image: url('background.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+/* Card Styling */
+.card {
+    text-align: center;
+    background-color: #ffff; /* Transparent black overlay */
+    padding: 20px;
+    border-radius: 15px;
+        max-width: 500px;
+    width: 90%;
+}
+
+/* Heading Styling */
+.card h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Paragraph Styling */
+.card p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
